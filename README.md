@@ -83,14 +83,17 @@ $$
 \lim_{x \to 0} \frac {x} {\sin x}
 $$
 > 部分编辑器x->0可能显示在角标的位置，可以这么写
+> 
 $$
 \lim\limits_{x \to 0} \frac {x} {\sin x}\\
 \max x
 $$
 > 从上面可以看出运算符名称如果超过一个字符要用直立体
+> 
 ___
 # 大型运算符
 >(product,乘积)
+>
 $$
 \sum,\prod\\
 \sum_i,\sum_{i=0}^N\\
@@ -99,10 +102,12 @@ $$
 \int,\iint,\iiint,\oint,\oiint\\
 $$
 > 写积分时，按标准写法，d为直立体，d前有一个小间隔使用\\,
+> 
 $$
 \int_{-\infty}^0 f(x)\,\text{d}x
 $$
 > 关于空格，以下写法的间隔不一样
+> 
 $$
 a\,a\\
 a\ a\\
@@ -112,6 +117,7 @@ $$
 ___
 # 标注符号
 >\vec只支持比较小的箭头,2个或更多字符的向量用\overrightarrow
+>
 $$
 \vec x,\overrightarrow{AB}\\
 \bar x,\overline{x}
@@ -128,10 +134,12 @@ $$
 \lceil,\rceil,\lfloor,\rfloor,||\\
 $$
 > 高度自适应，左右括号前加\left和\right
+> 
 $$
 (0,\frac 1 a],\left(0,\frac 1 a\right]
 $$
 > 没有括号想高度自适应，加入虚拟括号\left.和\right.
+> 
 $$
 \frac {\partial f} {\partial x}|_{x=0},
 \left.\frac {\partial f} {\partial x}\right|_{x=0}
@@ -141,6 +149,7 @@ ___
 > \\\\是不规范的写法，不是全部的编辑器支持，规范的是用align环境
 >
 > 可以用&(ampersand)对齐
+> 
 $$
 \begin{align}
 a&=b+c+d\\
@@ -162,6 +171,7 @@ $$
 ___
 # 矩阵
 > (bracket,方括号),(parenthesis,圆括号),(verticacl bar,横向竖线)
+> 
 $$
 \begin{matrix}
     
@@ -189,6 +199,7 @@ e & f & \cdots & g
 \end{vmatrix}
 $$
 > 矩阵符号用加粗直立体表示
+> 
 $$
 \bf A,\bf B^{\rm T}
 $$
